@@ -1,0 +1,70 @@
+.grid-pane{
+    -fx-base: rgb(199, 199, 199);
+    /*-fx-background-image: url("logo.png");*/
+    -fx-background-repeat: stretch;
+    -fx-background-position: top center ;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+
+}
+
+.button{
+    -fx-base: white;
+    -fx-border-color: black;
+    -fx-font-size: 25;
+    -fx-text-fill: black;
+}
+
+#button-disabled{
+    -fx-base: red;
+    -fx-border-color: red;
+    -fx-font-size: 25;
+    -fx-text-fill: red;
+}
+#button-disabled:hover{
+    -fx-base: red;
+    -fx-border-color: black;
+}
+#plansza-pole:hover{
+    -fx-base: grey;
+    -fx-border-color: black;
+}
+
+#button-reset{
+    -fx-font-weight: bold;
+    -fx-base: red;
+    -fx-max-width: 100;
+    -fx-border-color: black;
+    -fx-font-size: 20;
+    -fx-text-fill: white;
+}
+#button-reset:hover{
+    -fx-font-weight: bold;
+    -fx-base: white;
+    -fx-max-width: 100;
+    -fx-border-color: red;
+    -fx-font-size: 20;
+    -fx-text-fill: red;
+
+}
+
+#button-new-game{
+    -fx-font-weight: bold;
+    -fx-base: #525454;
+    -fx-max-width: 100;
+    -fx-border-color: black;
+    -fx-font-size: 15;
+    -fx-text-fill: white;
+}
+#button-new-game:hover{
+    -fx-font-weight: bold;
+    -fx-base: white;
+    -fx-max-width: 100;
+    -fx-border-color: #616161;
+    -fx-font-size: 15;
+    -fx-text-fill: #616161;
+}
+
+.label{
+    -fx-font: 15 consolas;
+    -fx-font-weight: bold;
+}
