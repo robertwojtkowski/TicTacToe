@@ -76,44 +76,13 @@ public class Main extends Application {
         primaryStage.setTitle("Tic Tac Toe");
         primaryStage.show();
 
-
-
-        plansza[0][0].setOnAction(action -> {
-            click(0,0);
-        });
-
-        plansza[1][1].setOnAction(action -> {
-            click(1,1);
-        });
-
-        plansza[2][2].setOnAction(action -> {
-            click(2,2);
-        });
-
-
-        plansza[0][1].setOnAction(action -> {
-            click(0,1);
-        });
-
-        plansza[0][2].setOnAction(action -> {
-            click(0,2);
-        });
-
-        plansza[1][0].setOnAction(action -> {
-            click(1,0);
-        });
-
-        plansza[1][2].setOnAction(action -> {
-            click(1,2);
-        });
-
-        plansza[2][1].setOnAction(action -> {
-            click(2,1);
-        });
-
-        plansza[2][0].setOnAction(action -> {
-            click(2,0);
-        });
+        for(int i=0; i<3; i++{
+            for(int j=0; j<3; j++){
+                plansza[i][j].setOnAction(action -> {
+                    click(i,j);
+                });
+            }
+        }
 
         buttonNewGame.setOnAction(action -> {
             for(int w = 0; w<3; w++){
